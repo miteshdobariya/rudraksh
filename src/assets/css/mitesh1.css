@@ -1,0 +1,348 @@
+.container {
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+
+.header-main{
+    display: block;
+    margin: 20px 0px;
+}
+
+.header-main .header-inner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-main .header-inner .cln{
+    display: block;
+}
+.header-main .header-inner .cln .logo{
+    display: block;
+}
+.header-main .header-inner .cln .logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header-main .header-inner .c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-main .header-inner .c2 .login-btn{
+ text-align: center;
+ font-family: "teko";
+ font-weight: 500;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.header-main .header-inner .c2 .login-btn a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 35px;
+    border-radius: 0%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+
+}
+
+.header-main .header-inner .c2 .login-btn:hover a{
+    background-color: #f68e9b;
+    border: 2px solid #f68e9b ;
+    transition: .3s ease;
+    color: #fff;
+}
+.header-main .header-inner .c2 .cart{
+    display: block;
+    font-size: 25px;
+
+}
+.header-main .header-inner .c2 .cart:hover p{
+    color: #f68e9b;
+
+}
+
+/* header-bottom start */
+
+.header-bottom-main {
+    background: #444349;
+    font-family: "Teko";
+    display: block;
+}
+
+.header-bottom-main .header-bottom-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom-main .header-bottom-inner .list-data {
+    list-style: none;
+    margin-left: -15px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    }
+
+.header-bottom-main .header-bottom-inner .list-data .item {
+    display: inline-block;
+    position: relative;
+    padding: 23px 20px 16px;
+    box-sizing: border-box;
+    border-top: 3px solid transparent;
+}
+.header-bottom-main .header-bottom-inner .list-data .i1{
+    margin-right: -20px;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item:hover {
+    border-top: 3px solid #ffce40;
+    background: #4b5055;
+    transition: .3s ease;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .link::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #4b5055;
+    border-top: 3px solid #ffce40;
+    transition: all 0.35s cubic-bezier(0.05, 0.29, 0.11, 1.54), height 0.3s ease;
+    z-index: -1;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item:hover.link {
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+    background: transparent;
+    transform: translate3d(0, 0, 0);
+    transition-delay: 0s, 0.2s;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item a {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    font-family: teko;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .sub-list {
+    position: absolute;
+    top: 100%;
+    padding: 22px 8px 34px 30px;
+    width: 270px;
+    background: #ffffff;
+    z-index: 5;
+    font-family: "poppins";
+    display: none;
+    margin-left: 0px;
+    left: 0;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .sub-list li {
+    display: block;
+    font-family: "poppins";
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .s1 li {
+    margin: 10px 0px;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .sub-list li a {
+    color: black;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item:hover .sub-list {
+    display: block;
+}
+
+.header-bottom-main .header-bottom-inner .list-data .item .icon1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+/* header bottom-end */
+
+
+
+/* hero slider start */
+
+.i1 {
+    font-family: "Teko";
+    display: block;
+    position: relative;
+}
+
+.i1 img {
+    display: block;
+    width: 100%;
+    height: 620px;
+    width: 1960px;
+    /* filter: contrast(0.8) saturate(1.2) hue-rotate(200deg); */
+    filter: brightness(60%) contrast(120%) saturate(150%) blur(1px);
+}
+
+.inner-slider {
+    display: block;
+}
+
+/* .info {
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    left: 0%;
+    margin: 0 auto;
+    right: 0%;
+}
+
+.info h4 {
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    color: #ffdb73;
+}
+
+.info .txt {
+    margin-top: 16px;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+} */
+
+
+.info {
+    display: block;
+    clear: both;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    width: 100%;
+    z-index: 2; /* Ensure text is above the background image */
+}
+
+.info h4 {
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    color: #ffdb73;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow for depth */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+.info .txt {
+    margin-top: 16px;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Larger shadow for impact */
+    animation: slideUp 1s ease-in-out; /* Slide-up animation */
+    letter-spacing: 0.1em; /* Slight spacing for better readability */
+}
+
+/* Optional: Adding hover effect for decorative touch */
+.info .txt:hover {
+    color: #ffdb73;
+    text-shadow: 4px 4px 15px rgba(255, 219, 115, 0.8);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slide-up animation */
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+
+.owl-dots {
+    display: none;
+}
+
+
+/* CSS */
+
+.button-69 {
+    font-family: "Teko";
+    letter-spacing: 2px;
+    background-color: initial;
+    background-image: linear-gradient( #ffce40 0, #ffdb73 100%);
+    /* Updated color values */
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
+    color: #444349;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    margin-left: -4px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: center;
+    width: 169px;
+    border: 1px solid #444349;
+}
+
+.button-69:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1000px) {
+    .button-69 {
+        font-size: 14px;
+        height: 55px;
+        line-height: 55px;
+        width: 150px;
+    }
+}
+
+/* hero slider end */
