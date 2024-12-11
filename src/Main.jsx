@@ -3,13 +3,18 @@ import Header from "./Header";
 import Heroslider from "./Heroslider";
 import Ad from "./assets/Ad";
 import Products from "./Products";
+import Banner from "./Banner";
 const Main = () => {
     return (
+
+
         <>
-            <Header />
-            <Heroslider/>
-            <Ad/>
-            <Products/>
+            
+
+            <Heroslider />
+            <Ad />
+            <Products />
+            <Banner/>
         </>
     )
 }

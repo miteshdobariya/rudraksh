@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Products=()=>{
     return(
         <>
@@ -23,7 +24,8 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">perspiciatis unde</a></h3>
+                                    <h3>
+                                    <Link to={"/productinner"}>perspiciatis unde</Link></h3>
                                     <div className="price">$99.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -40,7 +42,8 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">omnis iste</a></h3>
+                                    <h3>
+                                    <Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$199.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -60,7 +63,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">accusantium dolore</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$299.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -77,7 +80,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">rem aperiam</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$249.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -97,7 +100,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">adipisci velit</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$289.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -114,7 +117,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">numquam eius</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$279.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -131,7 +134,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">modi tempora</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$349.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
@@ -151,7 +154,7 @@ const Products=()=>{
                                     </div>
                                 </div>
                                 <div className="cln-detail">
-                                    <h3><a href="#">dolore magnam</a></h3>
+                                    <h3><Link to={"/productinner"}>omnis iste</Link></h3>
                                     <div className="price">$399.00</div>
                                     <div className="action-btn">
                                         <a href="#">Add to cart</a>
