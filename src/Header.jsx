@@ -28,9 +28,7 @@ const Header = () => {
                     </div>
 
                 </div>
-            </div>
-
-            <div className="header-bottom-main">
+                <div className="header-bottom-main">
                 <div className="container">
                     <div className="header-bottom-inner">
                         <ul className="list-data cln">
@@ -99,6 +97,9 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            </div>
+
+           
         </>
     )
 }
