@@ -3,6 +3,7 @@ import Header from "./Header";
 import Heroslider from "./Heroslider";
 import Ad from "./assets/Ad";
 import Products from "./Products";
+import Home from "./Home"
 const Main = () => {
     return (
         <>
@@ -10,6 +11,7 @@ const Main = () => {
             <Heroslider/>
             <Ad/>
             <Products/>
+            <Home/>
         </>
     )
 }
