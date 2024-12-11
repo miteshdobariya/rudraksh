@@ -7,6 +7,7 @@ import Header from './Header';
 import './assets/css/mitesh1.css';
 import Heroslider from './Heroslider';
 import Contact from './Contact';
+import Productinner from './Productinner';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,9 +16,11 @@ root.render(
     
     {/* <Contact/> */}
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Main />} /> 
         <Route path="/heroslider" element={<Heroslider />} /> 
+        <Route path="/productinner" element={<Productinner />} /> 
       </Routes>
     </BrowserRouter>
   </>
