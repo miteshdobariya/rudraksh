@@ -14,70 +14,79 @@ const Heroslider = () => {
         autoplayTimeout: 3000,
         autoplaySpeed: 800,
         navText: [
-            '<span class="button-prev-slide">Prev</span>',
-            '<span class="button-next-slide">Next</span>'
+            '<span class="button-prev-slide">&lt</span>',
+            '<span class="button-next-slide">&gt;</span>'
+            
         ],
+        
     };
 
     return (
         <>
             <OwlCarousel className="owl-theme" {...options}>
                 <div className="item">
-                    <div className="home-page">
-                        <div className="home-main">
-                            <div className="home-inner">
-                                <div className="home-img">
-                                    <img src="assets/img/home1.jpg" alt="home1" />
-                                </div>
-                                <div className="container">
-                                    <div className="home-txt">
-                                        <p>nail it with the<span> perfect set of colors</span></p>
-                                        <strong>buy any 2 products and get 1 free</strong>
-                                        <a className="action-button" href="#">Shop Now</a>
+                    <div className="home-main">
+
+                        <div className="home-inner">
+                            <div className="home-img">
+                                <img src="assets1/img/hero1.jpg" alt="home1" />
+                            </div>
+                           
+                            <div className="container">
+                                <div className="home-txt">
+                                    <p>nail it with the<div> perfect set of colors</div></p>
+                                    <strong>buy any 2 products and get 1 free</strong>
+                                    <div className="action-button">
+                                        <a href="#">shopnow</a>
                                     </div>
                                 </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className="home-main">
+
+                        <div className="home-inner">
+                            <div className="home-img">
+                                <img src="assets1/img/hero2.jpg" alt="home1" />
+                            </div>
+                            <div className="container">
+                                <div className="home-txt">
+                                    <p>nail it with the<div> perfect set of colors</div></p>
+                                    <strong>buy any 2 products and get 1 free</strong>
+                                    <div className="action-button">
+                                        <a href="#">shopnow</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className="home-main">
+
+                        <div className="home-inner">
+                            <div className="home-img">
+                                <img src="assets1/img/hero3.jpg" alt="home1" />
+                            </div>
+                            <div className="container">
+                                <div className="home-txt">
+                                    <p>nail it with the<div> perfect set of colors</div></p>
+                                    <strong>buy any 2 products and get 1 free</strong>
+                                    <div className="action-button">
+                                        <a href="#">shopnow</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="item">
-                    <div className="home-page">
-                        <div className="home-main">
-                            <div className="home-inner">
-                                <div className="home-img">
-                                    <img src="assets/img/home22.jpg" alt="home2" />
-                                </div>
-                                <div className="container">
-                                    <div className="home-txt">
-                                        <p>nail it with the<span> perfect set of colors</span></p>
-                                        <strong>buy any 2 products and get 1 free</strong>
-                                        <a className="action-button" href="#">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="item">
-                    <div className="home-page">
-                        <div className="home-main">
-                            <div className="home-inner">
-                                <div className="home-img">
-                                    <img src="assets/img/home3.jpg" alt="home3" />
-                                </div>
-                                <div className="container">
-                                    <div className="home-txt">
-                                        <p>nail it with the<span> perfect set of colors</span></p>
-                                        <strong>buy any 2 products and get 1 free</strong>
-                                        <a className="action-button" href="#">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </OwlCarousel>
         </>
     );

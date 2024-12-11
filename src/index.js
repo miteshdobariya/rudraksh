@@ -12,7 +12,7 @@ import Contact from './Contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <h1>djklfd</h1>
+    
     {/* <Contact/> */}
     <BrowserRouter>
       <Routes>
