@@ -7,7 +7,6 @@
     width: 100%;
 }
 
-
 .header-main{
     display: block;
 }
@@ -153,7 +152,7 @@
     position: absolute;
     top: 100%;
     padding: 22px 8px 34px 30px;
-    width: 270px;
+    width: 200px;
     background: #ffffff;
     z-index: 5;
     font-family: "poppins";

@@ -5,7 +5,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Contact = () =>{
     return(
         <>
-        {/* jdfjhds */}
+       
         <OwlCarousel className='owl-theme' loop margin={10} nav>
     <div class='item'>
         <h4>1</h4>
