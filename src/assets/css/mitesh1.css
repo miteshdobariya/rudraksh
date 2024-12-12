@@ -345,6 +345,171 @@ display: block;
 /* hero slider end */
 
 
+/*Home Service block start*/
+.home-service-block {
+    clear: both;
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .home-service-block .container .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .home-service-block .service-main {
+    display: block;
+    font-size: 0;
+    background: #f6f6f6;
+    padding: 30px 15px;
+  }
+  
+  .home-service-block .container .service-main .service-inner {
+    display: inline-block;
+    width: 22%;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+    font-size: 14px;
+  }
+  
+  .home-service-block .container .service-main .service-inner .service-inner-main {
+    background: #ffffff;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .home-service-block .container .service-main .service-inner .service-inner-main .service-img {
+    display: block;
+    padding-top: 15px;
+  }
+  .home-service-block .container .service-main .service-inner .service-inner-main .service-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .home-service-block .container .service-inner .service-inner-main .service-text {
+    font-family: "lato";
+    font-weight: 500;
+    padding: 18px 0 25px 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .home-service-block .container .service-inner .service-inner-main .service-text strong {
+    font-weight: 600;
+    text-transform: Capitalize;
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .home-service-block .container .service-inner .service-inner-main .service-text p {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    width: 100%;
+  }
+  /*Home Service block end*/
+
+  /* shop-by-category block start */
+.category {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+  }
+  
+  .section-title {
+    font-family: "Lato";
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 700    ;
+    color: #333333;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  
+  .section-title span {
+    position: relative;
+    padding-bottom: 11px;
+  }
+  
+  .category .container .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .category .container .owl-wrapper-outer .item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .category .container .owl-wrapper-outer .item > .cat-content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .category .container .owl-wrapper-outer .item .catcontent > .hover-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    opacity: 1;
+    border: none;
+    transform: none;
+    visibility: visible;
+    transition: all 0.2s ease-in 0s;
+    background: transparent;
+  }
+  .category .container .owl-wrapper-outer .item img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .category .container .owl-wrapper-outer .item a {
+    text-decoration: none;
+  }
+  .category .container .owl-wrapper-outer .item:hover .caption {
+    color: #f68e9b;
+    transition-duration: 0.5s;
+  }
+  
+  .category .container .owl-wrapper-outer .caption {
+    font-family: "lato";
+    font-weight: 600;
+    padding-top: 20px;
+    color: #353535;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: transparent;
+  }
+  
+  /* shop-by-category block end */
+
+
+
 /* add start */
 
  .ad-main{
@@ -1139,9 +1304,201 @@ display: block;
 
 /* inner page end */
 
+
+
+/* testinomial  Start*/
+.testimonial-section {
+    display: block;
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #ffffff;
+    text-align: left;
+    background-color: gray;
+    /* background-image: url(./assets/image/tetimonial_bg.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .testimonial-section .section-title {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-bottom: 35px;
+    color: #333333;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  
+  .testimonial-section .section-title > span {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .testimonial-section .testimonial-inner {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+  }
+  .testimonial-section .testimonial-inner .item {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+  }
+  
+  .testimonial-section .testimonial-inner .item .testimonial-content {
+    display: block;
+    position: relative;
+    background: #ffffff;
+    padding: 25px 25px;
+    margin-top: 10px;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail .testimonial-img {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-right: 15px;
+    width: 25%;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail .testimonial-img > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-desc {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+    width: 75%;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail .testimonial-desc > p {
+    font-size: 15px;
+    text-align: left;
+    color: #555555;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail .testimonial-desc > strong {
+    font-size: 16px;
+    text-align: left;
+    color: #333333;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .testimonial-section .testimonial-inner .testimonial-content .testimonial-detail .testimonial-desc > strong > span {
+    font-size: 12px;
+    text-align: left;
+    color: #555555;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /*Testinomial End*/
+  
+  /*Top brands start*/
+  .brand-section {
+    float: left;
+    clear: both;
+    width: 100%;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  
+  .brand-section .section-title {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-bottom: 35px;
+    color: #333333;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  
+  .brand-section .section-title > .title {
+    color: #353535;
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  .brand-section .brand-content {
+    float: left;
+    width: 100%;
+    clear: both;
+  }
+  .brand-section .brand-content .brand-row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .brand-section .brand-content .brand-row .brands-slider {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .brand-section .brand-content .brand-row .brands-slider .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  /* .brand-section .brand-content .brand-row .brands-slider .owl-wrapper-outer .owl-item {
+    width:238px;
+    float: left;
+  } */
+  .brand-section .brand-content .brands-slider li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+  }
+  .brand-section .brand-content .brands-slider li a {
+    display: block;
+    color: #f68e9b;
+    text-decoration: none;
+  }
+  .brand-section .brand-content .brands-slider li img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  
+  /*Top brands end*/
+
+
+
 /* banner start */
 
 .banner-main {
+    clear: both;
     display: block;
     margin: 50px 0;
 }
@@ -1267,3 +1624,144 @@ display: block;
     color: white;
     transition: 0.5s ease;
 }
+
+  /* footer starts*/
+.footer {
+    margin-top: 35px;
+    display: block;
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-top: 0;
+    background: #444349;
+    font-family: "Teko";
+  }
+  
+  .footer .container .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .container .row .block-content {
+    width: 22%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  .footer .container .row .block-content h3 {
+    color: #333;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 35px;
+  }
+  .footer .container .row .block-content .footer-block-content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .container .row .block-content .footer-block-content .contact-info {
+    position: relative;
+    color: #555555;
+    font-weight: 500;
+    display: block;
+    font-size: 17px;
+    padding-left: 0;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+  }
+  .footer .container .row .block-content .footer-block-content .contact-info .contact-label {
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .footer .block-content .contact-info a:hover {
+    color: #f2697a !important;
+  }
+  .footer .footer-links > li > a:hover {
+    color: #f2697a !important;
+    text-decoration: none;
+    padding-left: 8px !important;
+  }
+  .footer .container .row .block-content p {
+    line-height: 1.4rem;
+  }
+  .footer .container .row .footer-block-content > li {
+    display: block;
+    margin-bottom: 9px;
+  }
+  .footer .container .row .footer-block-content li a {
+    color: #555;
+    font-weight: 500;
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    padding-left: 0;
+  }
+  .footer .container > :after {
+    content: "";
+    clear: both;
+    border-bottom: 1px solid #555;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+  }
+  
+  /* footer-bottom */
+  .footer .footer-bottom {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding: 0;
+    display: block;
+  }
+  .footer .footer-bottom .footer-bottom-inner {
+    padding: 20px 0;
+    display: block;
+    clear: both;
+    font-size: 0;
+  }
+  .footer .footer-bottom .footer-bottom-inner .inner-left {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 33%;
+  }
+  .footer .footer-bottom .footer-bottom-inner .copyright {
+    font-size: 17px;
+    color: #555;
+    font-weight: 500;
+    margin: 0;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .footer .footer-bottom .footer-bottom-inner .copyright a {
+    color: #555;
+    text-decoration: none;
+  }
+  .footer .footer-bottom .footer-bottom-inner .inner-right {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 33%;
+    text-align: center;
+  }
+  .footer .footer-bottom .footer-bottom-inner .right {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 33%;
+    text-align: right;
+  }
+  
+  /*footer end*/
