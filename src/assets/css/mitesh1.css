@@ -299,24 +299,20 @@ display: block;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
-.button-prev-slide .arrow{
-    font-size: 30px;
-    color: #f68e9b;
 
-}
 
 /* Hover and focus effects */
 .button-prev-slide:hover,
 .button-next-slide:hover {
     background-color: #fdb4c4; 
     color: #8f1a3e; 
-    transform: scale(1.1); 
+    /* transform: scale(1.1);  */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .button-prev-slide:active,
 .button-next-slide:active {
-    transform: scale(0.95); /* Shrink effect on click */
+     /* transform: scale(0.95); */
 }
 
 /* Positioning for navigation buttons */
@@ -441,7 +437,7 @@ display: block;
     margin-bottom: 25px;
     font-weight: 700    ;
     color: #333333;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: capitalize;
   }
   
@@ -464,7 +460,7 @@ display: block;
   .category .container .owl-wrapper-outer .item > .cat-content {
     display: block;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
   }
   .category .container .owl-wrapper-outer .item .catcontent > .hover-btn {
@@ -506,6 +502,17 @@ display: block;
     background: transparent;
   }
   
+  /* --------------------------------------- */
+
+
+
+  /* ----------------------------------------- */
+ 
+
+  
+
+
+
   /* shop-by-category block end */
 
 
@@ -1317,10 +1324,13 @@ display: block;
     color: #ffffff;
     text-align: left;
     background-color: gray;
-    /* background-image: url(./assets/image/tetimonial_bg.jpg); */
+    background-image: url(../image/tetimonial_bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+
   }
   
   .testimonial-section .section-title {
@@ -1333,6 +1343,11 @@ display: block;
     font-weight: 700;
     text-transform: capitalize;
   }
+  .nav-text {
+    font-size: 2rem;
+    color: inherit;
+  }
+  
   
   .testimonial-section .section-title > span {
     position: relative;
@@ -1413,6 +1428,74 @@ display: block;
     display: inline-block;
     vertical-align: middle;
   }
+
+
+/* ------------------------ */
+/* Ensure buttons are styled specifically for the carousel */
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav .button-prev-slide22,
+.owl-carousel .owl-nav .button-next-slide22 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fee8eb; /* Soft pastel pink */
+  color: #a57a87; /* Deep rose text */
+  font-size: 2.5rem; /* Large font for visibility */
+  font-weight: bold;
+  border: 2px solid #eea1b8; /* Matching border color */
+  border-radius: 50%; /* Circular design */
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus effects */
+.owl-carousel .owl-nav .button-prev-slide22:hover,
+.owl-carousel .owl-nav .button-next-slide22:hover {
+  background-color: #fdb4c4; /* Lighter pink on hover */
+  color: #8f1a3e; /* Darker text color */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Active state (for click effect) */
+.owl-carousel .owl-nav .button-prev-slide22:active,
+.owl-carousel .owl-nav .button-next-slide22:active {
+  transform: scale(0.95); /* Slightly shrink on click */
+}
+
+/* Positioning for previous and next buttons */
+.owl-carousel .owl-nav .button-prev-slide22 {
+  left: 15px;
+}
+
+.owl-carousel .owl-nav .button-next-slide22 {
+  right: 15px;
+}
+
+/* Accessibility focus outline */
+.owl-carousel .owl-nav .button-prev-slide22:focus,
+.owl-carousel .owl-nav .button-next-slide22:focus {
+  outline: 2px solid #ffd7e0;
+  outline-offset: 4px;
+}
+
+/* ----------------------------- */
+
+
   
   /*Testinomial End*/
   
@@ -1439,8 +1522,8 @@ display: block;
   
   .brand-section .section-title > .title {
     color: #353535;
-    font-size: 38px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 700;
     text-transform: capitalize;
     position: relative;
     display: inline-block;
@@ -1633,7 +1716,7 @@ display: block;
     width: 100%;
     clear: both;
     padding-top: 0;
-    background: #444349;
+    background: fff;
     font-family: "Teko";
   }
   

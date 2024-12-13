@@ -9,6 +9,7 @@ const Heroslider = () => {
         loop: true,
         margin: 1,
         items: 1,
+        dots: false,
         nav: true, // Enables navigation arrows
         autoplay: true,
         autoplayTimeout: 3000,

@@ -2,10 +2,10 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import './assets/css/mitesh1.css'; // Ensure you have imported the CSS
 
 const Testimonial = () => {
-  const options = {
+
+  const options3 = {
     loop: true,
     margin: 1,
     nav: true,
@@ -18,19 +18,25 @@ const Testimonial = () => {
       600: { items: 2 },
     },
     navText: [
-      '<span class="button-prev-slide">&lt</span>',
-      '<span class="button-next-slide">&gt;</span>',
+      '<span class="button-prev-slide22">&lt</span>',
+      '<span class="button-next-slide22">&gt;</span>',
     ],
+
+
   };
+  console.log("Carousel options:", options3);
+
 
   return (
+    
     <div className="testimonial-section">
+      
       <div className="container">
         <div className="section-title">
           <span>Testimonial</span>
         </div>
         <div className="testimonial-inner">
-          <OwlCarousel className="owl-theme" {...options}>
+          <OwlCarousel className="owl-theme" {...options3}>
           <div className="item">
               <div className="testimonial-content">
                 <div className="testimonial-detail">
@@ -73,3 +79,5 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
+
