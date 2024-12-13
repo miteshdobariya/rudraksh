@@ -351,8 +351,8 @@ display: block;
     float: left;
     width: 100%;
     display: block;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .home-service-block .container .row {
     margin-right: -15px;
@@ -485,7 +485,6 @@ display: block;
     height: auto;
     max-width: 100%;
     object-fit: cover;
-    border-radius: 5px;
   }
   
   .category .container .owl-wrapper-outer .item a {
@@ -514,7 +513,7 @@ display: block;
 
  .ad-main{
     display: block;
-    margin: 50px 0;
+    margin: 35px 0;
   }
 
    .ad-main .ad-inner{
@@ -658,8 +657,9 @@ display: block;
 /* product start */
 
 .product-main{
+    clear: both;
     display: block;
-    margin: 20px 0;
+    margin: 35px 0;
 }
 .product-main .title{
     display: block;
@@ -907,12 +907,12 @@ display: block;
     width: 12px;
 }
 
-.owl-carousel .item {
+/* .owl-carousel .item {
     padding: 15px;
-}
+} */
 
 .owl-carousel .item img {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -1314,6 +1314,7 @@ display: block;
     clear: both;
     padding-top: 75px;
     padding-bottom: 75px;
+    margin-top: 35px;
     color: #ffffff;
     text-align: left;
     background-color: gray;
@@ -1424,6 +1425,7 @@ display: block;
     display: block;
     padding-top: 35px;
     padding-bottom: 35px;
+    margin-bottom: 35px;
   }
   
   .brand-section .section-title {
@@ -1500,7 +1502,7 @@ display: block;
 .banner-main {
     clear: both;
     display: block;
-    margin: 50px 0;
+    margin: 35px 0;
 }
 
 .banner-main .banner-inner {
