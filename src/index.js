@@ -14,7 +14,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /* Request check*/
 root.render(
   <>
-    mitesh
     {/* <Contact/> */}
     <BrowserRouter>
     <Header/>
