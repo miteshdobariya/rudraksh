@@ -17,7 +17,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /* Request check*/
 root.render(
   <>
-    
     {/* <Contact/> */}
     <BrowserRouter>
     <Header/>
