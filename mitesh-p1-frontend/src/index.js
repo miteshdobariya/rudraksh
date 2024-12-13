@@ -12,6 +12,7 @@ import Signup from './Signup';
 import Forgot from './Forgot';
 import Otp from './Otp';
 
+/*Miteshj change*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 /* Request check*/
